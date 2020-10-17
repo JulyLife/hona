@@ -13,6 +13,11 @@
 		F80107D92538F0B2003BC70F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80107D72538F0B2003BC70F /* Main.storyboard */; };
 		F80107DB2538F0B8003BC70F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80107DA2538F0B8003BC70F /* Assets.xcassets */; };
 		F80107DE2538F0B8003BC70F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80107DC2538F0B8003BC70F /* LaunchScreen.storyboard */; };
+		F80107E8253B3556003BC70F /* HonaGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80107E7253B3556003BC70F /* HonaGif.swift */; };
+		F80107EA253B367D003BC70F /* gifToImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80107E9253B367D003BC70F /* gifToImage.swift */; };
+		F80107EC253B3712003BC70F /* fishGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = F80107EB253B3712003BC70F /* fishGif.gif */; };
+		F815F2FC253B3CDC006A0C95 /* summer.gif in Resources */ = {isa = PBXBuildFile; fileRef = F815F2FB253B3CDB006A0C95 /* summer.gif */; };
+		F815F2FE253B6F28006A0C95 /* DesignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815F2FD253B6F28006A0C95 /* DesignView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F80107DA2538F0B8003BC70F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80107DD2538F0B8003BC70F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80107DF2538F0B8003BC70F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80107E7253B3556003BC70F /* HonaGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HonaGif.swift; sourceTree = "<group>"; };
+		F80107E9253B367D003BC70F /* gifToImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = gifToImage.swift; path = "../../../projects/ios-hw-4-part1/ios-hw-4-part1/gifToImage.swift"; sourceTree = "<group>"; };
+		F80107EB253B3712003BC70F /* fishGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fishGif.gif; sourceTree = "<group>"; };
+		F815F2FB253B3CDB006A0C95 /* summer.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = summer.gif; sourceTree = "<group>"; };
+		F815F2FD253B6F28006A0C95 /* DesignView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		F80107D02538F0B2003BC70F /* Hona */ = {
 			isa = PBXGroup;
 			children = (
+				F80107EB253B3712003BC70F /* fishGif.gif */,
+				F815F2FB253B3CDB006A0C95 /* summer.gif */,
+				F80107E6253B2D43003BC70F /* Views */,
+				F80107E5253B2AAA003BC70F /* Models */,
 				F80107D12538F0B2003BC70F /* AppDelegate.swift */,
 				F80107D32538F0B2003BC70F /* SceneDelegate.swift */,
+				F80107E9253B367D003BC70F /* gifToImage.swift */,
 				F80107D52538F0B2003BC70F /* ViewController.swift */,
 				F80107D72538F0B2003BC70F /* Main.storyboard */,
 				F80107DA2538F0B8003BC70F /* Assets.xcassets */,
 				F80107DC2538F0B8003BC70F /* LaunchScreen.storyboard */,
 				F80107DF2538F0B8003BC70F /* Info.plist */,
+				F815F2FD253B6F28006A0C95 /* DesignView.swift */,
 			);
 			path = Hona;
+			sourceTree = "<group>";
+		};
+		F80107E5253B2AAA003BC70F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F80107E6253B2D43003BC70F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F80107E7253B3556003BC70F /* HonaGif.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +159,8 @@
 				F80107DE2538F0B8003BC70F /* LaunchScreen.storyboard in Resources */,
 				F80107DB2538F0B8003BC70F /* Assets.xcassets in Resources */,
 				F80107D92538F0B2003BC70F /* Main.storyboard in Resources */,
+				F815F2FC253B3CDC006A0C95 /* summer.gif in Resources */,
+				F80107EC253B3712003BC70F /* fishGif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80107E8253B3556003BC70F /* HonaGif.swift in Sources */,
 				F80107D62538F0B2003BC70F /* ViewController.swift in Sources */,
+				F815F2FE253B6F28006A0C95 /* DesignView.swift in Sources */,
+				F80107EA253B367D003BC70F /* gifToImage.swift in Sources */,
 				F80107D22538F0B2003BC70F /* AppDelegate.swift in Sources */,
 				F80107D42538F0B2003BC70F /* SceneDelegate.swift in Sources */,
 			);
