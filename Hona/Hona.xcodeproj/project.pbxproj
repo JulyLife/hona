@@ -37,6 +37,16 @@
 		F851C74A2544E2DF00D0676C /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C7482544E2DF00D0676C /* ItemCollectionViewCell.swift */; };
 		F851C74B2544E2DF00D0676C /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F851C7492544E2DF00D0676C /* ItemCollectionViewCell.xib */; };
 		F851C74D254586E300D0676C /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C74C254586E300D0676C /* ImageViewerViewController.swift */; };
+		F851C74F2545EBA800D0676C /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C74E2545EBA700D0676C /* RoundButton.swift */; };
+		F851C7512545F84B00D0676C /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C7502545F84B00D0676C /* CircularImageView.swift */; };
+		F851C7552545FF2700D0676C /* gif3.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C7522545FF2700D0676C /* gif3.gif */; };
+		F851C7562545FF2700D0676C /* gif1.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C7532545FF2700D0676C /* gif1.gif */; };
+		F851C7572545FF2700D0676C /* gif2.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C7542545FF2700D0676C /* gif2.gif */; };
+		F851C75D2545FF4000D0676C /* gif8.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C7582545FF3D00D0676C /* gif8.gif */; };
+		F851C75E2545FF4000D0676C /* gif4.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C7592545FF3E00D0676C /* gif4.gif */; };
+		F851C75F2545FF4000D0676C /* gif6.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C75A2545FF3E00D0676C /* gif6.gif */; };
+		F851C7602545FF4000D0676C /* gif7.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C75B2545FF3F00D0676C /* gif7.gif */; };
+		F851C7612545FF4000D0676C /* gif5.gif in Resources */ = {isa = PBXBuildFile; fileRef = F851C75C2545FF3F00D0676C /* gif5.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +84,16 @@
 		F851C7482544E2DF00D0676C /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		F851C7492544E2DF00D0676C /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 		F851C74C254586E300D0676C /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
+		F851C74E2545EBA700D0676C /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		F851C7502545F84B00D0676C /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		F851C7522545FF2700D0676C /* gif3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif3.gif; sourceTree = "<group>"; };
+		F851C7532545FF2700D0676C /* gif1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif1.gif; sourceTree = "<group>"; };
+		F851C7542545FF2700D0676C /* gif2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif2.gif; sourceTree = "<group>"; };
+		F851C7582545FF3D00D0676C /* gif8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif8.gif; sourceTree = "<group>"; };
+		F851C7592545FF3E00D0676C /* gif4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif4.gif; sourceTree = "<group>"; };
+		F851C75A2545FF3E00D0676C /* gif6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif6.gif; sourceTree = "<group>"; };
+		F851C75B2545FF3F00D0676C /* gif7.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif7.gif; sourceTree = "<group>"; };
+		F851C75C2545FF3F00D0676C /* gif5.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif5.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,12 +192,22 @@
 		F815F302253B8932006A0C95 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F851C7592545FF3E00D0676C /* gif4.gif */,
+				F851C75C2545FF3F00D0676C /* gif5.gif */,
+				F851C75A2545FF3E00D0676C /* gif6.gif */,
+				F851C75B2545FF3F00D0676C /* gif7.gif */,
+				F851C7582545FF3D00D0676C /* gif8.gif */,
 				F815F305253B8AB9006A0C95 /* plant.gif */,
+				F851C7532545FF2700D0676C /* gif1.gif */,
+				F851C7542545FF2700D0676C /* gif2.gif */,
+				F851C7522545FF2700D0676C /* gif3.gif */,
 				F815F2FB253B3CDB006A0C95 /* summer.gif */,
 				F815F309253B8E45006A0C95 /* thumbsup.gif */,
 				F815F2FD253B6F28006A0C95 /* DesignView.swift */,
 				F815F303253B896B006A0C95 /* gifToImage.swift */,
 				F815F30B253B9E48006A0C95 /* DesignableView.swift */,
+				F851C74E2545EBA700D0676C /* RoundButton.swift */,
+				F851C7502545F84B00D0676C /* CircularImageView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -254,11 +284,19 @@
 			files = (
 				F80107DE2538F0B8003BC70F /* LaunchScreen.storyboard in Resources */,
 				F80107DB2538F0B8003BC70F /* Assets.xcassets in Resources */,
+				F851C7572545FF2700D0676C /* gif2.gif in Resources */,
 				F815F30A253B8E46006A0C95 /* thumbsup.gif in Resources */,
 				F851C74B2544E2DF00D0676C /* ItemCollectionViewCell.xib in Resources */,
 				F815F306253B8AB9006A0C95 /* plant.gif in Resources */,
+				F851C7552545FF2700D0676C /* gif3.gif in Resources */,
+				F851C7612545FF4000D0676C /* gif5.gif in Resources */,
 				F80107D92538F0B2003BC70F /* Main.storyboard in Resources */,
+				F851C7562545FF2700D0676C /* gif1.gif in Resources */,
 				F815F2FC253B3CDC006A0C95 /* summer.gif in Resources */,
+				F851C75E2545FF4000D0676C /* gif4.gif in Resources */,
+				F851C7602545FF4000D0676C /* gif7.gif in Resources */,
+				F851C75F2545FF4000D0676C /* gif6.gif in Resources */,
+				F851C75D2545FF4000D0676C /* gif8.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,10 +362,12 @@
 				F815F30C253B9E48006A0C95 /* DesignableView.swift in Sources */,
 				F815F308253B8AFC006A0C95 /* SignUpVC.swift in Sources */,
 				F851C73C25445CA000D0676C /* SideMenu.swift in Sources */,
+				F851C7512545F84B00D0676C /* CircularImageView.swift in Sources */,
 				F80107E8253B3556003BC70F /* HonaGif.swift in Sources */,
 				F815F323254343DE006A0C95 /* User.swift in Sources */,
 				F80107D62538F0B2003BC70F /* ViewController.swift in Sources */,
 				F815F2FE253B6F28006A0C95 /* DesignView.swift in Sources */,
+				F851C74F2545EBA800D0676C /* RoundButton.swift in Sources */,
 				F80107D22538F0B2003BC70F /* AppDelegate.swift in Sources */,
 				F851C7422544732700D0676C /* OtherUsersViewController.swift in Sources */,
 				F80107D42538F0B2003BC70F /* SceneDelegate.swift in Sources */,

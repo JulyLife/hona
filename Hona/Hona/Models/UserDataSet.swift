@@ -15,8 +15,15 @@ var pics : [Pic] = [
 ]
 
 var bgs : [Background] = [
-.init(name: "bg1"),
-    .init(name: "bg2")
+    .init(name: "gif3", colorName: "white"),
+    .init(name: "gif8", colorName: "white"),
+    .init(name: "gif7", colorName: "white"),
+    .init(name: "gif6", colorName: "red" ),
+    .init(name: "gif2", colorName: "purple"),
+    .init(name: "gif1", colorName: "white"),
+    .init(name: "plant", colorName: "green"),
+    .init(name: "gif2", colorName: "white"),
+    .init(name: "gif1", colorName: "white"),
 ]
 
 var songs : [Song] = [

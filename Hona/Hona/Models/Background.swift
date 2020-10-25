@@ -10,4 +10,5 @@ import Foundation
 
 struct Background {
     var name: String
+    var colorName: String
 }

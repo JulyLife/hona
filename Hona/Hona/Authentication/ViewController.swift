@@ -25,13 +25,13 @@ class ViewController: UIViewController {
     
 
     @IBAction func loginButton(_ sender: Any) {
-        let username = "ghanima"//nameTextfield.text
-        let password = "123"//passTextfield.text
+        let username = nameTextfield.text
+        let password = passTextfield.text
         if(username == "" || password == ""){
             errorLabel.text = "Please fill the form"
             return
         }
-         DoLogin(username, password)
+        DoLogin(username!, password!)
     }
     func DoLogin(_ user:String,_ pass:String){
         let user_ = users.filter{$0.username == user && $0.password == pass}
