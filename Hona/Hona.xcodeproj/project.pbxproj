@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B961F39278239A66C7AA8B8E /* Pods_Hona.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110332359923317929703B21 /* Pods_Hona.framework */; };
 		F80107D22538F0B2003BC70F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80107D12538F0B2003BC70F /* AppDelegate.swift */; };
 		F80107D42538F0B2003BC70F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80107D32538F0B2003BC70F /* SceneDelegate.swift */; };
 		F80107D62538F0B2003BC70F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80107D52538F0B2003BC70F /* ViewController.swift */; };
@@ -29,9 +30,19 @@
 		F815F32125434399006A0C95 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815F32025434399006A0C95 /* Country.swift */; };
 		F815F323254343DE006A0C95 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815F322254343DE006A0C95 /* User.swift */; };
 		F815F325254345FE006A0C95 /* UserDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815F324254345FE006A0C95 /* UserDataSet.swift */; };
+		F851C73C25445CA000D0676C /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C73B25445CA000D0676C /* SideMenu.swift */; };
+		F851C73E25445EB600D0676C /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C73D25445EB600D0676C /* InfoViewController.swift */; };
+		F851C74025445EF000D0676C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C73F25445EF000D0676C /* SettingsViewController.swift */; };
+		F851C7422544732700D0676C /* OtherUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C7412544732700D0676C /* OtherUsersViewController.swift */; };
+		F851C74A2544E2DF00D0676C /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C7482544E2DF00D0676C /* ItemCollectionViewCell.swift */; };
+		F851C74B2544E2DF00D0676C /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F851C7492544E2DF00D0676C /* ItemCollectionViewCell.xib */; };
+		F851C74D254586E300D0676C /* ImageViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851C74C254586E300D0676C /* ImageViewerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		110332359923317929703B21 /* Pods_Hona.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hona.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23B993B9241078989A16DF7F /* Pods-Hona.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hona.release.xcconfig"; path = "Target Support Files/Pods-Hona/Pods-Hona.release.xcconfig"; sourceTree = "<group>"; };
+		31E1E04CF07F07FA30B52E7C /* Pods-Hona.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hona.debug.xcconfig"; path = "Target Support Files/Pods-Hona/Pods-Hona.debug.xcconfig"; sourceTree = "<group>"; };
 		F80107CE2538F0B2003BC70F /* Hona.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hona.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80107D12538F0B2003BC70F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F80107D32538F0B2003BC70F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +67,13 @@
 		F815F32025434399006A0C95 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		F815F322254343DE006A0C95 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F815F324254345FE006A0C95 /* UserDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSet.swift; sourceTree = "<group>"; };
+		F851C73B25445CA000D0676C /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		F851C73D25445EB600D0676C /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F851C73F25445EF000D0676C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F851C7412544732700D0676C /* OtherUsersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUsersViewController.swift; sourceTree = "<group>"; };
+		F851C7482544E2DF00D0676C /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		F851C7492544E2DF00D0676C /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
+		F851C74C254586E300D0676C /* ImageViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +81,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B961F39278239A66C7AA8B8E /* Pods_Hona.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29430C419D48E47F4F5E0AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110332359923317929703B21 /* Pods_Hona.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE785A5449E1340EEC68D17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E1E04CF07F07FA30B52E7C /* Pods-Hona.debug.xcconfig */,
+				23B993B9241078989A16DF7F /* Pods-Hona.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F80107C52538F0B2003BC70F = {
 			isa = PBXGroup;
 			children = (
 				F80107D02538F0B2003BC70F /* Hona */,
 				F80107CF2538F0B2003BC70F /* Products */,
+				BEE785A5449E1340EEC68D17 /* Pods */,
+				29430C419D48E47F4F5E0AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +126,7 @@
 		F80107D02538F0B2003BC70F /* Hona */ = {
 			isa = PBXGroup;
 			children = (
+				F851C7432544A1B800D0676C /* Views */,
 				F815F302253B8932006A0C95 /* UI */,
 				F80107E6253B2D43003BC70F /* Authentication */,
 				F80107E5253B2AAA003BC70F /* Models */,
@@ -122,6 +161,10 @@
 				F80107E7253B3556003BC70F /* HonaGif.swift */,
 				F815F307253B8AFC006A0C95 /* SignUpVC.swift */,
 				F815F315253CBB2A006A0C95 /* ProfileVC.swift */,
+				F851C73D25445EB600D0676C /* InfoViewController.swift */,
+				F851C73F25445EF000D0676C /* SettingsViewController.swift */,
+				F851C73B25445CA000D0676C /* SideMenu.swift */,
+				F851C7412544732700D0676C /* OtherUsersViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -139,6 +182,16 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		F851C7432544A1B800D0676C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F851C7482544E2DF00D0676C /* ItemCollectionViewCell.swift */,
+				F851C7492544E2DF00D0676C /* ItemCollectionViewCell.xib */,
+				F851C74C254586E300D0676C /* ImageViewerViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80107E22538F0B8003BC70F /* Build configuration list for PBXNativeTarget "Hona" */;
 			buildPhases = (
+				2A4AD89C179421B9B6BE0FB8 /* [CP] Check Pods Manifest.lock */,
 				F80107CA2538F0B2003BC70F /* Sources */,
 				F80107CB2538F0B2003BC70F /* Frameworks */,
 				F80107CC2538F0B2003BC70F /* Resources */,
+				68493BDD25EB7B71B77A5B02 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +255,7 @@
 				F80107DE2538F0B8003BC70F /* LaunchScreen.storyboard in Resources */,
 				F80107DB2538F0B8003BC70F /* Assets.xcassets in Resources */,
 				F815F30A253B8E46006A0C95 /* thumbsup.gif in Resources */,
+				F851C74B2544E2DF00D0676C /* ItemCollectionViewCell.xib in Resources */,
 				F815F306253B8AB9006A0C95 /* plant.gif in Resources */,
 				F80107D92538F0B2003BC70F /* Main.storyboard in Resources */,
 				F815F2FC253B3CDC006A0C95 /* summer.gif in Resources */,
@@ -207,6 +263,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A4AD89C179421B9B6BE0FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hona-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68493BDD25EB7B71B77A5B02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hona/Pods-Hona-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hona/Pods-Hona-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hona/Pods-Hona-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F80107CA2538F0B2003BC70F /* Sources */ = {
@@ -217,15 +315,21 @@
 				F815F325254345FE006A0C95 /* UserDataSet.swift in Sources */,
 				F815F31D25434286006A0C95 /* Song.swift in Sources */,
 				F815F31B25434241006A0C95 /* Background.swift in Sources */,
+				F851C74D254586E300D0676C /* ImageViewerViewController.swift in Sources */,
+				F851C73E25445EB600D0676C /* InfoViewController.swift in Sources */,
+				F851C74025445EF000D0676C /* SettingsViewController.swift in Sources */,
+				F851C74A2544E2DF00D0676C /* ItemCollectionViewCell.swift in Sources */,
 				F815F319254341FA006A0C95 /* Pic.swift in Sources */,
 				F815F316253CBB2B006A0C95 /* ProfileVC.swift in Sources */,
 				F815F30C253B9E48006A0C95 /* DesignableView.swift in Sources */,
 				F815F308253B8AFC006A0C95 /* SignUpVC.swift in Sources */,
+				F851C73C25445CA000D0676C /* SideMenu.swift in Sources */,
 				F80107E8253B3556003BC70F /* HonaGif.swift in Sources */,
 				F815F323254343DE006A0C95 /* User.swift in Sources */,
 				F80107D62538F0B2003BC70F /* ViewController.swift in Sources */,
 				F815F2FE253B6F28006A0C95 /* DesignView.swift in Sources */,
 				F80107D22538F0B2003BC70F /* AppDelegate.swift in Sources */,
+				F851C7422544732700D0676C /* OtherUsersViewController.swift in Sources */,
 				F80107D42538F0B2003BC70F /* SceneDelegate.swift in Sources */,
 				F815F31F25434358006A0C95 /* Emoji.swift in Sources */,
 				F815F304253B89A6006A0C95 /* gifToImage.swift in Sources */,
@@ -370,6 +474,7 @@
 		};
 		F80107E32538F0B8003BC70F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E1E04CF07F07FA30B52E7C /* Pods-Hona.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -388,6 +493,7 @@
 		};
 		F80107E42538F0B8003BC70F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B993B9241078989A16DF7F /* Pods-Hona.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

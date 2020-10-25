@@ -5,11 +5,11 @@
 //  Created by ghanima on 10/16/20.
 //  Copyright © 2020 ghanima. All rights reserved.
 //
-
+import SideMenu
 import UIKit
 
 class ViewController: UIViewController {
-
+// private let sidemenu = SideMenuNavigationController(rootViewController: UIViewController())
     @IBOutlet weak var bgImage: UIImageView!
     @IBOutlet weak var nameTextfield: UITextField!
     @IBOutlet weak var passTextfield: UITextField!
@@ -23,15 +23,15 @@ class ViewController: UIViewController {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action:nil)
     }
     
-    
+
     @IBAction func loginButton(_ sender: Any) {
-        let username = nameTextfield.text
-        let password = passTextfield.text
+        let username = "ghanima"//nameTextfield.text
+        let password = "123"//passTextfield.text
         if(username == "" || password == ""){
             errorLabel.text = "Please fill the form"
             return
         }
-         DoLogin(username!, password!)
+         DoLogin(username, password)
     }
     func DoLogin(_ user:String,_ pass:String){
         let user_ = users.filter{$0.username == user && $0.password == pass}

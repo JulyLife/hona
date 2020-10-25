@@ -10,8 +10,8 @@ import Foundation
 
 
 var pics : [Pic] = [
-.init(name: "profile1"),
- .init(name: "profile2")
+.init(name: "img1"),
+ .init(name: "img2")
 ]
 
 var bgs : [Background] = [
