@@ -14,7 +14,6 @@ struct Item {
 class OtherUsersViewController: UIViewController {
    
 //MARK: Outlets
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     var items: [Item] = [Item(imageName: "img0"),
@@ -37,11 +36,12 @@ class OtherUsersViewController: UIViewController {
         
         view.backgroundColor = .white
         setupCollectionView()
+        setupCollectionViewItemSize()
     }
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        setupCollectionViewItemSize()
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -61,20 +61,12 @@ class OtherUsersViewController: UIViewController {
     }
     
     private func setupCollectionViewItemSize(){
-        if collectionViewFlowLayout == nil{
-            let numberOfItemPerRow: CGFloat = 2
-            let lineSpacing: CGFloat = 5
-            let interItemSpacing: CGFloat = 5
-            let width = (collectionView.frame.width - (numberOfItemPerRow - 1) * interItemSpacing) / numberOfItemPerRow
-            let height = width
-            collectionViewFlowLayout = UICollectionViewFlowLayout()
-            collectionViewFlowLayout.itemSize = CGSize(width: width, height: height)
-            collectionViewFlowLayout.sectionInset = UIEdgeInsets.zero
-            collectionViewFlowLayout.scrollDirection = .vertical
-            collectionViewFlowLayout.minimumLineSpacing = lineSpacing
-            collectionViewFlowLayout.minimumInteritemSpacing = interItemSpacing
-            collectionView.setCollectionViewLayout(collectionViewFlowLayout, animated: true)
-        }
+        let customLayout = CustomLayout()
+        customLayout.delegate = self
+        customLayout.numberOfColumns = 2
+        customLayout.cellPadding = 5
+        collectionView.collectionViewLayout = customLayout
+        
     }
     
     
@@ -86,10 +78,10 @@ extension OtherUsersViewController: UICollectionViewDelegate, UICollectionViewDa
         return items.count
     }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifire, for: indexPath) as! ItemCollectionViewCell
-        
+             
         cell.imageView.image = UIImage(named: items[indexPath.item].imageName)
-        
         return cell
     }
     
@@ -97,9 +89,11 @@ extension OtherUsersViewController: UICollectionViewDelegate, UICollectionViewDa
         let item = items[indexPath.item]
         performSegue(withIdentifier: viewImageSegueIdentifier, sender: item)
     }
+    
 }
 
- 
-
-
-
+extension OtherUsersViewController: CustomLayoutDelegate{
+    func collectionView(_ collectionView: UICollectionView, sizeOfPhotoAtIndexPath indexPath: IndexPath) -> CGSize {
+        return UIImage(named: items[indexPath.item].imageName)!.size
+    }
+}
